@@ -1,5 +1,5 @@
 #Defs
-words=["chicken"]#, "pie", "jonathanyoon", "jaydencheng", "topology"]
+words=["chicken", "pie", "jonathanyoon", "jaydencheng", "topology", "lights", "rudolph", "september", "never", "gonna", "give", "you", "up", "wish", "were", "here", "marestaing"]
 import random
 word=random.choice(words)
 leng=len(word)
