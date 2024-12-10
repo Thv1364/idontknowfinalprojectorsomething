@@ -80,7 +80,7 @@ print("_______________________________________________ \n")
 
 while resul==0: #main while loop
     
-    if fails<=int(allowedfails):
+    if fails<int(allowedfails):
 
         if checkall()==0:
             newletter = input("What is your letter? \n")
