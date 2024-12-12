@@ -85,9 +85,7 @@ while resul==0: #main while loop
         if checkall()==0:
             newletter = input("What is your letter? \n")
             Letters.append(newletter)
-            print(int(checkletter(newletter)))
             fails=int(fails) + int(checkletter(newletter))
-
             combiword= ' '.join(uknown)
             combilet=', '.join(Letters)
             print("\nHere are the letters you have used: " + combilet)
